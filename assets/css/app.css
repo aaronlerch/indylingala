@@ -1,10 +1,15 @@
+body {
+	font-family: "open sans";
+	max-width: 730px;
+}
+
 #main {
 	width: 670px;
 	margin: 30px auto;
 }
 
 #main h1 {
-	font: 800 68px/70px "open sans";
+	font: 800 64px/70px "open sans";
 	text-align: center;
 }
 
@@ -13,6 +18,10 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 	vertical-align: top;
+}
+
+h3 {
+	font-family: "open sans";
 }
 
 hr {
@@ -26,91 +35,20 @@ hr {
 #slogan {
 	font: 400 36px/36px "gentium book basic";
 	font-style: italic;
-	margin-top: 100px;
 	margin-left: 15px;
 }
 
 .faq p {
-	font: 400 15px/22px "gentium book basic";
+	font: 400 15px/22px "open sans";
 }
 
-#details, #dojo {
+#details {
 	margin-top: 20px;
 }
 
-#dojo ol {
-	margin: 0;
-	padding-top: 10px;
-}
-
-li {
-	list-style-type: none;
-}
-
-#members, #projects {
-	margin: 0;
-}
-
-#projects > ul {
-	padding: 0;
-	margin: 0;
-}
-
-#members li, #projects li {
-	padding: 10px 0;
-}
-
-.avatar {
-	width: 50px;
-}
-
-.name {
-	padding-top: 3px;
-	font: 400 18px/24px "gentium book basic";
-}
-
-.link {
-	font: 400 14px/16px "gentium book basic";
-}
-
-li.member {
-	width: 220px;
-	display: inline-block;
-}
-
-li.project {
-	width: 333px;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.project-summary {
-	padding: 10px;
-	width: 290px;
-	margin: 0 auto;
-}
-
-.project-row {
-	margin-bottom: 15px;
-}
-
-.project img {
-	width: 290px;
-}
-
-.project-blurb {
+#subscribe {
+	margin-top: 20px;
 	text-align: center;
-	font-size: 14px;
-	font-style: italic;
-}
-
-.project-desc > p {
-	height: 70px;
-	margin-bottom: 10px;
-}
-
-.stick-bottom {
-	margin: 0px;
-	padding: 5px 0px 0px 0px;
-	border-top: 1px solid #DDD;
+	font-weight: 700;
+	font-size: 30px;
 }
