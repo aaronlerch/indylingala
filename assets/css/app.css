@@ -46,6 +46,10 @@ hr {
 	margin-top: 20px;
 }
 
+#details img.me {
+	margin-right: 10px;
+}
+
 #subscribe {
 	margin-top: 20px;
 	text-align: center;
